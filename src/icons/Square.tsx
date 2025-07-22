@@ -1,0 +1,18 @@
+import { IconProps } from '../types';
+
+export const Square = ({ 
+  size = 24, 
+  color = 'currentColor', 
+  ...props 
+}: IconProps) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 15 15"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path d="M2.5 1.5H12.5C13.0523 1.5 13.5 1.94772 13.5 2.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H2.5C1.94772 13.5 1.5 13.0523 1.5 12.5V2.5C1.5 1.94772 1.94772 1.5 2.5 1.5Z" stroke="black"/>
+  </svg>
+);

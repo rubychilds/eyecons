@@ -1,0 +1,18 @@
+import { IconProps } from '../types';
+
+export const ComponentInstance = ({ 
+  size = 24, 
+  color = 'currentColor', 
+  ...props 
+}: IconProps) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 15 15"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path d="M7.14678 1.48948C7.34206 1.2944 7.65861 1.29428 7.85381 1.48948L13.5101 7.1467C13.7053 7.34197 13.7053 7.6585 13.5101 7.85374L7.85381 13.51C7.65857 13.7052 7.34205 13.7052 7.14678 13.51L1.48955 7.85374C1.29435 7.65854 1.29448 7.34198 1.48955 7.1467L7.14678 1.48948ZM2.5501 7.50022L7.5003 12.4494L12.4495 7.50022L7.5003 2.55002L2.5501 7.50022Z" fill={color}/>
+  </svg>
+);

@@ -1,0 +1,18 @@
+import { IconProps } from '../types';
+
+export const Pilcrow = ({ 
+  size = 24, 
+  color = 'currentColor', 
+  ...props 
+}: IconProps) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 15 15"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path d="M11.5 2C11.8037 2 12.0497 2.24614 12.0498 2.5498C12.0498 2.85356 11.8038 3.09961 11.5 3.09961H10V12.5C10 12.7761 9.77614 13 9.5 13C9.22386 13 9 12.7761 9 12.5V3.09961H8V12.5C8 12.7761 7.77614 13 7.5 13C7.22386 13 7 12.7761 7 12.5V9C4.99169 9 3 7.983 3 5.5C3 3.017 4.99169 2 7 2H11.5Z" fill={color}/>
+  </svg>
+);

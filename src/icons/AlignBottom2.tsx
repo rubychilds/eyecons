@@ -1,0 +1,19 @@
+import { IconProps } from '../types';
+
+export const AlignBottom2 = ({ 
+  size = 24, 
+  color = 'currentColor', 
+  ...props 
+}: IconProps) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 15 15"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path d="M6 2C6.55228 2 7 2.44772 7 3V15H4V3C4 2.44772 4.44772 2 5 2H6ZM11 9C11.5523 9 12 9.44772 12 10V14H9V10C9 9.44772 9.44772 9 10 9H11Z" fill={color}/>
+<path d="M1.5 14.5L13.5 14.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+);

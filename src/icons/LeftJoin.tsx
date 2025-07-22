@@ -1,0 +1,18 @@
+import { IconProps } from '../types';
+
+export const LeftJoin = ({ 
+  size = 24, 
+  color = 'currentColor', 
+  ...props 
+}: IconProps) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 15 15"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 10.2857H4.71428V13C4.71428 13.5523 5.16199 14 5.71428 14H13C13.5523 14 14 13.5523 14 13V5.71428C14 5.16199 13.5523 4.71428 13 4.71428H10.2857V2C10.2857 1.44772 9.838 1 9.28571 1H2C1.44772 1 1 1.44772 1 2V9.28571C1 9.838 1.44772 10.2857 2 10.2857ZM9.98557 10C9.8052 10.1767 9.55818 10.2857 9.28571 10.2857H5.71428V13L13 13L13 5.71428H10.2857V9.28571C10.2857 9.55818 10.1767 9.8052 10 9.98557V10H9.98557Z" fill={color}/>
+  </svg>
+);
