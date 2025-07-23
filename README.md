@@ -21,9 +21,9 @@ Created by Ruby out of a genuine love for Radix and a need for more variety, Eye
 ## Installation
 
 ```bash
-npm install eyecons
+npm install eyecons-library
 # or
-yarn add eyecons
+yarn add eyecons-library
 ```
 
 ## Development

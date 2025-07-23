@@ -1,5 +1,5 @@
 {
-  "name": "eyecons",
+  "name": "eyecons-library",
   "version": "1.0.0",
   "description": "A React icon library distributed as individual components",
   "main": "dist/index.js",
